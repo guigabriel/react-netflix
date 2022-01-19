@@ -1,0 +1,62 @@
+header {
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+    background: transparent;
+    transition: all ease 0.5s;
+}
+
+.black {
+    background-color: #141414;
+}
+
+.header--logo {
+    height: 3.5vh;
+}
+
+.header--logo img {
+    height: 100%;
+}
+
+.header--usuario {
+    display: flex;
+    align-items: center;
+}
+
+.header--letra {
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: rgb(245, 243, 243);
+    font-size: 0.9em;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+}
+
+.nome--usuario {
+    margin-left: 10px;
+}
+
+.nome--usuario a {
+    text-decoration: none ;
+    color: #fff;
+    opacity: 1;
+    transition: all ease 0.2s;
+    font-size: 1,2rem;
+}
+
+.nome--usuario a:hover {
+    opacity: 0.7;
+}
