@@ -23,7 +23,7 @@ export default {
         return [
             {
                 slug: 'originals',
-                title: 'Originais React',
+                title: 'Originais',
                 items: await basicFetch(`/discover/tv?with_network=213&language=pt-br&api_key=${API_KEY}`)
             },
             {
